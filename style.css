@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+main {
+    height: 100%; 
+}
+header {
+    color: white;
+    height: 60px;
+    background-color: #0e5c7a;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    padding: 2px;
+}
+
+header h1 {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+}
+
+.mainCon {
+    color: white;
+    display: flex;
+    height: 100%;
+}
+
+.leftPannel {
+    background-color: #167196;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+.chats {
+    background-color: #0a384b;
+    width: 286.84px;
+}
+
+.searchChats {
+    font-size: 20px;
+    display: block;
+    width: 273px;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    border-radius: 15px;
+    border-color: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: #0d455e;
+    transition: all .4s;
+}
+
+.searchChats:hover {
+    background-color: #145d80;
+}
+
+.searchChats:focus {
+    outline: none;
+    background-color: #145d80;
+}
+
+.mainWindow {
+    background-color: #072531;
+    width: 100%;
+    padding: 0;
+    
+    overflow-y: scroll ;
+}
+
+.sendMessage {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+}
+
+.sendMessage {
+    width: 86.9%;
+    font-size: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.sendMessage:focus {
+    outline: none;
+}
+
+.settings {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.profile {
+    margin-bottom: 25px;
+}
+
+.pannel {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #266179;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+    transition: all .2s;
+}
+
+.pannel:hover {
+    background-color: #225569;
+}
+
+
+.oneChat {
+    color: white;
+    border: none;
+    position: relative;
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    transition: all .1s;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.oneChat:hover {
+    background-color: #0e475f;
+}
+
+
+
